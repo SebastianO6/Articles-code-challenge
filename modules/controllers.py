@@ -1,4 +1,4 @@
-from lib.db.connection import get_connection
+from db.connections import get_connection
 
 def add_author_with_articles(author_name, articles_data):
     """
